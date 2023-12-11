@@ -1,0 +1,296 @@
+/* Basics of flex box */
+/* .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  } */
+
+  /* Flex-container */
+  /* Flex direction */
+  /* .flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* Flex-wrap */
+  /* .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /*Flex-flow  */
+  /* .flex-container {
+    display: flex;
+    flex-flow:row wrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* Justify-content */
+  /* .flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* Aligh items */
+  /* .flex-container {
+    display: flex;
+    height: 200px;
+    align-items: last baseline;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* Align-content */
+  /* .flex-container {
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    overflow: scroll;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* Perfect Centering */
+  /* horizontal & vertical center */
+  /* .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    color: white;
+    width: 100px;
+    height: 100px;
+  } */
+
+  /* Flex-items */
+  /* Order */
+  /* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* flex-Grow property */
+  /* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* Flex-shirink */
+  /* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+/* Flex-basis */
+  /* .flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+  /* Align self */
+  /* .flex-container {
+    display: flex;
+    align-items: stretch;
+    height: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  .flex-container>div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  } */
+
+   /* Responsive-flexbox 
+  * {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+ Responsive layout - makes a one column-layout instead of two-column layout 
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  } */
+
+  /* Responsive image gallary */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
